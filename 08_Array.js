@@ -1,7 +1,7 @@
 // ARRAY
 
 const myArray = [0, 1, 2, 3, 4, 5]
-const muHeors = ["IronMan", "Thor"]
+const myHeors = ["IronMan", "Thor"]
 
 const myArray2 = new Array(1, 2, 3, 4)
 console.log(myArray[1]);

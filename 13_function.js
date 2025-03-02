@@ -21,8 +21,9 @@
 function addTWoNumber(number1, number2){
 
     let result = number1 + number2
-    // return result  // result likne k baad kuch bhi print nhi hota hai
+    // return result  // return likne k baad kuch bhi print nhi hota hai
     return number1 + number2
+    
     
 }
 

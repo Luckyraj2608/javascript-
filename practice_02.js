@@ -24,3 +24,9 @@ handleObject({
 
 
 const myNewArray = [200, 400, 100, 600]
+
+function returnSecondvalue(getArray){
+    return getArray[1]
+}
+// console.log(returnSecondvalue(myNewArray));
+console.log(returnSecondvalue([200, 400, 500, 1000]));

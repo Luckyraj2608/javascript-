@@ -27,3 +27,5 @@ function returnSecondvalue(getArray){
 }
 // console.log(returnSecondvalue(mynewArray));
 console.log(returnSecondvalue([200, 400, 500, 1000]));
+
+// this is a function in JS

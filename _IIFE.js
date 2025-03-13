@@ -1,6 +1,6 @@
 // immediately Invoked Function Expression (IIFE)
 // global scope k problem hote hai kaye baar-- global problem ko hatana k liye IIFE ka use krte hai
-//  dp IIFE k liye (;) ka use kiya jaata hai
+//  do IIFE k liye (;) ka use kiya jaata hai
 (function chai()
 {
     console.log(`DB CONNECTED`);

@@ -22,6 +22,7 @@ const map = new Map()
 map.set('IN', "INDIA")
 map.set('USA', "UNITED STATES OF AMERICA")
 map.set('Fr', "France")
+map.set('IN', "INDIA")
 // console.log(map);
 
 for (const [key, value] of map) {
@@ -35,6 +36,6 @@ const myObject = {
 }
 
 for (const [key, value] of myObject) {
-    console.log(key, ':-', value);
+    // console.log(key, ':-', value);
     
 }

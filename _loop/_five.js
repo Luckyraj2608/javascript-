@@ -1,3 +1,6 @@
+// cd folder k andr jaane k liye 
+// cd .. folder k bhar jaane k liye
+
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
 // coding.forEach( function (val) {

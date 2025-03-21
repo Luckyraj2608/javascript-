@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Example</title>
+    <style>
+        .message {
+            font-size: 20px;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <button id="showMessageBtn">Show Message</button>
+    <button id="removeMessageBtn">Remove Message</button>
+
+    <div id="messageContainer"></div>
+
+    <script>
+        // Get the buttons and message container
+        const showMessageBtn = document.getElementById('showMessageBtn');
+        const removeMessageBtn = document.getElementById('removeMessageBtn');
+        const messageContainer = document.getElementById('messageContainer');
+
+        // Show a message when the "Show Message" button is clicked
+        showMessageBtn.addEventListener('click', function() {
+            const message = document.createElement('p');
+            message.textContent = 'Hello, this is a dynamic message!';
+            message.classList.add('message');
+            messageContainer.appendChild(message);
+        });
+
+        // Remove the message when the "Remove Message" button is clicked
+        removeMessageBtn.addEventListener('click', function() {
+            messageContainer.innerHTML = ''; // Clears all the content inside the message container
+        });
+    </script>
+
+</body>
+</html>

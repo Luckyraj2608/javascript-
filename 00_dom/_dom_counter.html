@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Counter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        .counter {
+            font-size: 2rem;
+            margin: 20px;
+        }
+        button {
+            font-size: 1rem;
+            padding: 10px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple Counter</h1>
+    <div class="counter" id="counter">0</div>
+    <button onclick="increaseCounter()">Increase</button>
+    <button onclick="decreaseCounter()">Decrease</button>
+    <button onclick="resetCounter()">Reset</button>
+
+    <script>
+        let count = 0;
+
+        function updateCounter() {
+            document.getElementById('counter').textContent = count;
+        }
+
+        function increaseCounter() {
+            count++;
+            updateCounter();
+        }
+
+        function decreaseCounter() {
+            count--;
+            updateCounter();
+        }
+
+        function resetCounter() {
+            count = 0;
+            updateCounter();
+        }
+    </script>
+</body>
+</html>

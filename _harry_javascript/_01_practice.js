@@ -17,3 +17,8 @@ a["name"] = "nanhi"
 
 console.log(a);
 
+// chapter 1 - Q5
+const dict = {
+    
+}
+
